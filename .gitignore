@@ -1,0 +1,9 @@
+*.gba
+*.bin
+*.elf
+*.map
+*.d
+*.o
+
+*.sav
+*.ss[0-9]

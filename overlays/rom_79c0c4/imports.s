@@ -1,0 +1,21 @@
+	.include "macros.inc"
+
+	.export_func _Func_79338
+	.export_func _Func_79358
+	.export_func _Func_9163c
+	.export_func _Func_916b0
+	.export_func _Func_91750
+	.export_func _Func_8b868
+	.export_func _Func_91c7c
+	.export_func _Func_92054
+	.export_func _Func_9259c
+	.export_func _Func_9280c
+	.export_func _Func_92b94
+	.export_func _Func_92c40
+	.export_func _Func_92f84
+	.export_func _Func_93040
+	.export_func _Func_93054
+	.export_func _Func_92adc
+	.export_func _Func_93874
+	.export_func _Func_b0278
+	.export_func _Func_b3284
