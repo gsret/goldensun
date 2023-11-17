@@ -14,17 +14,27 @@ MEMORY {
 SECTIONS {
 	.text : {
 		overlays/rom_7d0e88/exports.o(.text)
-		overlays/rom_7d0e88/ovl_30.o(.text)
+		overlays/common/common0.o(.text)
+		overlays/rom_7d0e88/ovl_314.o(.text)
+		overlays/rom_7d0e88/ovl_1440.o(.text)
+		overlays/rom_7d0e88/ovl_1528.o(.text)
+		overlays/rom_7d0e88/ovl_2580.o(.text)
 		overlays/rom_7d0e88/imports.o(.text)
 		lib/call_via.o(.text)
 	} > overlay
 
 	.data : {
-		overlays/rom_7d0e88/ovl_30.o(.data)
+		overlays/common/common0.o(.data)
+		overlays/rom_7d0e88/ovl_314.o(.data)
+		overlays/common/common0.o(.data1)
+		overlays/rom_7d0e88/ovl_2d64.o(.data)
+		overlays/rom_7d0e88/ovl_1528.o(.data)
+		overlays/rom_7d0e88/ovl_1440.o(.data)
+		overlays/rom_7d0e88/ovl_2580.o(.data)
 	} > overlay
 
 	.bss : {
-		overlays/rom_7d0e88/ovl_30.o(.bss)
+		overlays/rom_7d0e88/ovl_1528.o(.bss)
 	} > overlay
 
 	/DISCARD/ : {

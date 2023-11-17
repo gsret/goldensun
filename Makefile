@@ -91,6 +91,10 @@ $(patsubst %.s,%.o,$(wildcard $(1)*.s)): %.o: $(1)orig.bin
 endef
 $(foreach overlay_dir,$(OVERLAY_DIRS),$(eval $(call overlay_orig_deps, $(overlay_dir))))
 
+overlays/common/common0.o: overlays/rom_78ef88/orig.bin
+
+overlays/common/common1.o: overlays/rom_7db0c8/orig.bin
+
 overlays/rom_%/orig.bin: baserom.gba tools/unpack_overlay
 	tools/unpack_overlay -r $< -a 0x$* -o $@
 
