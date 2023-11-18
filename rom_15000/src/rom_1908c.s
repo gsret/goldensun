@@ -1275,7 +1275,7 @@
 	mov	r2, #0xff
 	lsr	r3, r5, #8
 	and	r5, r2
-	ldr	r2, =Data_3842c
+	ldr	r2, =HuffmanTreePointers
 	lsl	r3, #3
 	ldr	r1, [r2, r3]
 	add	r3, #4

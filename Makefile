@@ -58,7 +58,7 @@ $(foreach elf,$(ELFS),$(eval $(call elf_deps,$(elf))))
 
 # Tools are compiled for the host and used during the build.
 
-TOOLS := tools/unpack_overlay
+TOOLS := tools/pack_strings tools/unpack_overlay tools/unpack_strings
 
 CPPFLAGS += -MMD
 CFLAGS ?= -O2 -Wall
@@ -73,6 +73,17 @@ TOOL_DEPS := $(TOOL_OBJS:.o=.d)
 
 clean::
 	-$(RM) $(TOOLS) $(TOOL_OBJS) $(TOOL_DEPS)
+
+
+rom_15000/data/strings/strings.s: rom_15000/data/strings/strings.txt tools/pack_strings
+	tools/pack_strings -i $< -o $(dir $@)
+
+rom_15000/data/strings/strings.txt: baserom.gba tools/unpack_strings
+	mkdir -p $(dir $@)
+	tools/unpack_strings -r $< -o $@
+
+clean::
+	-$(RM) -r rom_15000/data/
 
 
 # Overlays are special in a couple of ways.

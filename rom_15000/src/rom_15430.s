@@ -3,7 +3,7 @@
 .arm_func_start Func_15430
 	push	{r5, r6}
 	ldm	r0, {r1, r2, r3}
-	ldr	r12, =Data_3842c
+	ldr	r12, =HuffmanTreePointers
 	lsr	r4, r1, #8
 	add	r12, r4, lsl #3
 	ldm	r12, {r4, r5}
@@ -93,7 +93,7 @@
 
 .arm_func_start Func_15570
 	lsr	r3, r1, #8
-	ldr	r12, =Data_736b8
+	ldr	r12, =StringPointers
 	add	r12, r3, lsl #3
 	ldm	r12, {r2, r4}
 	ands	r1, #0xff

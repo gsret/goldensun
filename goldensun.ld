@@ -142,7 +142,7 @@ SECTIONS {
 		rom_15000/src/rom_1de5c.o(.rodata)
 		rom_15000/src/rom_20198.o(.rodata)
 		rom_15000/src/rom_23178.o(.rodata)
-		rom_15000/src/rom_3842c.o(.rodata)
+		rom_15000/data/strings/strings.o(.rodata)
 		rom_15000/src/rom_15e8c.o(.rodata)
 		rom_15000/src/rom_73812.o(.rodata)
 		rom_15000/src/rom_1fe2c.o(.rodata)
