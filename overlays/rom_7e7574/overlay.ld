@@ -18,12 +18,12 @@ SECTIONS {
 		overlays/rom_7e7574/ovl_9dc.o(.text)
 		overlays/rom_7e7574/imports.o(.text)
 		lib/call_via.o(.text)
-		overlays/rom_7e7574/ovl_57ec.o(.text)
+		overlays/common/common2.o(.text)
 	} > overlay
 
 	.data : {
 		overlays/rom_7e7574/ovl_30.o(.data)
-		overlays/rom_7e7574/ovl_57ec.o(.data)
+		overlays/common/common2.o(.data)
 		overlays/rom_7e7574/ovl_9dc.o(.data)
 	} > overlay
 

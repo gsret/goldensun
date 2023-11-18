@@ -938,13 +938,13 @@
 	cmp	r3, #0
 	bne	.L120a
 	ldr	r0, [r7, #8]
-	bl	OvlFunc_5af0
+	bl	OvlFunc_common2_304
 	mov	r3, r1
 	mov	r2, r0
 	ldr	r0, =0x41610000
 	ldr	r1, =0
-	bl	OvlFunc_5a78
-	bl	OvlFunc_5b6c
+	bl	OvlFunc_common2_28c
+	bl	OvlFunc_common2_380
 	str	r0, [r6, #0x20]
 .L120a:
 	bl	OvlFunc_1108

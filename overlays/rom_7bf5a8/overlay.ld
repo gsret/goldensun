@@ -19,13 +19,13 @@ SECTIONS {
 		overlays/rom_7bf5a8/ovl_2e0.o(.text)
 		overlays/rom_7bf5a8/ovl_b8c.o(.text)
 		overlays/rom_7bf5a8/imports.o(.text)
-		overlays/rom_7bf5a8/ovl_1158.o(.text)
+		overlays/common/common2.o(.text)
 	} > overlay
 
 	.data : {
 		overlays/rom_7bf5a8/ovl_170.o(.data)
 		overlays/rom_7bf5a8/ovl_b8c.o(.data)
-		overlays/rom_7bf5a8/ovl_1158.o(.data)
+		overlays/common/common2.o(.data)
 		overlays/rom_7bf5a8/ovl_30.o(.data)
 		overlays/rom_7bf5a8/ovl_2e0.o(.data)
 	} > overlay

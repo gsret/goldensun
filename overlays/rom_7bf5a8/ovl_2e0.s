@@ -594,20 +594,20 @@
 	mov	r2, r10
 	mov	r5, r0
 	ldr	r0, [r2, #0x24]
-	bl	OvlFunc_145c
+	bl	OvlFunc_common2_304
 	lsl	r5, #11
 	lsr	r5, #16
 	str	r0, [sp, #8]
 	str	r1, [sp, #0xc]
 	mov	r0, r5
-	bl	OvlFunc_145c
+	bl	OvlFunc_common2_304
 	mov	r7, r1
 	mov	r6, r0
 	cmp	r5, #0
 	bge	.L7e4
 	ldr	r2, =0x41f00000
 	ldr	r3, =0
-	bl	OvlFunc_13ac
+	bl	OvlFunc_common2_254
 	mov	r7, r1
 	mov	r6, r0
 .L7e4:
@@ -615,13 +615,13 @@
 	mov	r2, r6
 	ldr	r0, =0x40b26e97
 	ldr	r1, =0x8d4fdf3b
-	bl	OvlFunc_13e4
+	bl	OvlFunc_common2_28c
 	mov	r3, r1
 	mov	r2, r0
 	ldr	r0, [sp, #8]
 	ldr	r1, [sp, #0xc]
-	bl	OvlFunc_13e4
-	bl	OvlFunc_14d8
+	bl	OvlFunc_common2_28c
+	bl	OvlFunc_common2_380
 	mov	r3, r10
 	str	r0, [r3, #0x24]
 	mov	r0, #1

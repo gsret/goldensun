@@ -106,6 +106,8 @@ overlays/common/common0.o: overlays/rom_78ef88/orig.bin
 
 overlays/common/common1.o: overlays/rom_7db0c8/orig.bin
 
+overlays/common/common2.o: overlays/rom_7bf5a8/orig.bin
+
 overlays/rom_%/orig.bin: baserom.gba tools/unpack_overlay
 	tools/unpack_overlay -r $< -a 0x$* -o $@
 
