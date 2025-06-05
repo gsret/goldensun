@@ -2731,194 +2731,348 @@ Data_320000:
 .L878:
 	.incrom 0x779048, 0x779188
 .L879:
-	.incrom 0x779188, 0x7795e8
+	.incbin "overlays/rom_779188/overlay.lz"
+	.byte	0xa0, 0x4f
+	.align	2, 0
 .L880:
-	.incrom 0x7795e8, 0x77a7c8
+	.incbin "overlays/rom_7795e8/overlay.lz"
+	.byte	0x00, 0x00, 0xdd
+	.align	2, 0
 .L881:
-	.incrom 0x77a7c8, 0x77dd1c
+	.incbin "overlays/rom_77a7c8/overlay.lz"
+	.align	2, 0
 .L882:
-	.incrom 0x77dd1c, 0x780898
+	.incbin "overlays/rom_77dd1c/overlay.lz"
+	.align	2, 0
 .L883:
-	.incrom 0x780898, 0x784360
+	.incbin "overlays/rom_780898/overlay.lz"
+	.byte	0x2b, 0x82
+	.align	2, 0
 .L884:
-	.incrom 0x784360, 0x78603c
+	.incbin "overlays/rom_784360/overlay.lz"
+	.align	2, 0
 .L885:
-	.incrom 0x78603c, 0x786f0c
+	.incbin "overlays/rom_78603c/overlay.lz"
+	.align	2, 0
 .L886:
-	.incrom 0x786f0c, 0x787e04
+	.incbin "overlays/rom_786f0c/overlay.lz"
+	.align	2, 0
 .L887:
-	.incrom 0x787e04, 0x7892c8
+	.incbin "overlays/rom_787e04/overlay.lz"
+	.align	2, 0
 .L888:
-	.incrom 0x7892c8, 0x78ac38
+	.incbin "overlays/rom_7892c8/overlay.lz"
+	.align	2, 0
 .L889:
-	.incrom 0x78ac38, 0x78b2ac
+	.incbin "overlays/rom_78ac38/overlay.lz"
+	.align	2, 0
 .L890:
-	.incrom 0x78b2ac, 0x78c76c
+	.incbin "overlays/rom_78b2ac/overlay.lz"
+	.byte	0x7c
+	.align	2, 0
 .L891:
-	.incrom 0x78c76c, 0x78dc80
+	.incbin "overlays/rom_78c76c/overlay.lz"
+	.byte	0x51, 0x05, 0x08
+	.align	2, 0
 .L892:
-	.incrom 0x78dc80, 0x78dd40
+	.incbin "overlays/rom_78dc80/overlay.lz"
+	.align	2, 0
 .L893:
-	.incrom 0x78dd40, 0x78de18
+	.incbin "overlays/rom_78dd40/overlay.lz"
+	.align	2, 0
 .L894:
-	.incrom 0x78de18, 0x78dee8
+	.incbin "overlays/rom_78de18/overlay.lz"
+	.byte	0x10, 0x4e
+	.align	2, 0
 .L895:
-	.incrom 0x78dee8, 0x78ef88
+	.incbin "overlays/rom_78dee8/overlay.lz"
+	.align	2, 0
 .L896:
-	.incrom 0x78ef88, 0x791794
+	.incbin "overlays/rom_78ef88/overlay.lz"
+	.byte	0xc5
+	.align	2, 0
 .L897:
-	.incrom 0x791794, 0x793768
+	.incbin "overlays/rom_791794/overlay.lz"
+	.align	2, 0
 .L898:
-	.incrom 0x793768, 0x794ac0
+	.incbin "overlays/rom_793768/overlay.lz"
+	.byte	0xa3, 0x6e, 0x3e
+	.align	2, 0
 .L899:
-	.incrom 0x794ac0, 0x797740
+	.incbin "overlays/rom_794ac0/overlay.lz"
+	.byte	0x46, 0xe0
+	.align	2, 0
 .L900:
-	.incrom 0x797740, 0x797990
+	.incbin "overlays/rom_797740/overlay.lz"
+	.align	2, 0
 .L901:
-	.incrom 0x797990, 0x7987ac
+	.incbin "overlays/rom_797990/overlay.lz"
+	.byte	0xe0, 0x2d, 0xbc
+	.align	2, 0
 .L902:
-	.incrom 0x7987ac, 0x798dc4
+	.incbin "overlays/rom_7987ac/overlay.lz"
+	.byte	0x03
+	.align	2, 0
 .L903:
-	.incrom 0x798dc4, 0x799998
+	.incbin "overlays/rom_798dc4/overlay.lz"
+	.byte	0xc1
+	.align	2, 0
 .L904:
-	.incrom 0x799998, 0x799abc
+	.incbin "overlays/rom_799998/overlay.lz"
+	.byte	0x90, 0x58
+	.align	2, 0
 .L905:
-	.incrom 0x799abc, 0x79aad8
+	.incbin "overlays/rom_799abc/overlay.lz"
+	.align	2, 0
 .L906:
-	.incrom 0x79aad8, 0x79b154
+	.incbin "overlays/rom_79aad8/overlay.lz"
+	.byte	0x16, 0x56, 0x82
+	.align	2, 0
 .L907:
-	.incrom 0x79b154, 0x79c0c4
+	.incbin "overlays/rom_79b154/overlay.lz"
+	.align	2, 0
 .L908:
-	.incrom 0x79c0c4, 0x79c738
+	.incbin "overlays/rom_79c0c4/overlay.lz"
+	.align	2, 0
 .L909:
-	.incrom 0x79c738, 0x79dd90
+	.incbin "overlays/rom_79c738/overlay.lz"
+	.byte	0xfd, 0x11, 0x21
+	.align	2, 0
 .L910:
-	.incrom 0x79dd90, 0x79e5c0
+	.incbin "overlays/rom_79dd90/overlay.lz"
+	.byte	0x47
+	.align	2, 0
 .L911:
-	.incrom 0x79e5c0, 0x7a0010
+	.incbin "overlays/rom_79e5c0/overlay.lz"
+	.byte	0xb0
+	.align	2, 0
 .L912:
-	.incrom 0x7a0010, 0x7a04ac
+	.incbin "overlays/rom_7a0010/overlay.lz"
+	.byte	0x16, 0x40
+	.align	2, 0
 .L913:
-	.incrom 0x7a04ac, 0x7a1ff0
+	.incbin "overlays/rom_7a04ac/overlay.lz"
+	.byte	0x04, 0x14
+	.align	2, 0
 .L914:
-	.incrom 0x7a1ff0, 0x7a2bf0
+	.incbin "overlays/rom_7a1ff0/overlay.lz"
+	.align	2, 0
 .L915:
-	.incrom 0x7a2bf0, 0x7a37f0
+	.incbin "overlays/rom_7a2bf0/overlay.lz"
+	.byte	0x7c
+	.align	2, 0
 .L916:
-	.incrom 0x7a37f0, 0x7a4370
+	.incbin "overlays/rom_7a37f0/overlay.lz"
+	.align	2, 0
 .L917:
-	.incrom 0x7a4370, 0x7a5214
+	.incbin "overlays/rom_7a4370/overlay.lz"
+	.align	2, 0
 .L918:
-	.incrom 0x7a5214, 0x7a67d8
+	.incbin "overlays/rom_7a5214/overlay.lz"
+	.byte	0x8c, 0x0e, 0xe2
+	.align	2, 0
 .L919:
-	.incrom 0x7a67d8, 0x7a6ae4
+	.incbin "overlays/rom_7a67d8/overlay.lz"
+	.align	2, 0
 .L920:
-	.incrom 0x7a6ae4, 0x7a7298
+	.incbin "overlays/rom_7a6ae4/overlay.lz"
+	.align	2, 0
 .L921:
-	.incrom 0x7a7298, 0x7a8c8c
+	.incbin "overlays/rom_7a7298/overlay.lz"
+	.byte	0x5b
+	.align	2, 0
 .L922:
-	.incrom 0x7a8c8c, 0x7aa430
+	.incbin "overlays/rom_7a8c8c/overlay.lz"
+	.byte	0xf4, 0xbe
+	.align	2, 0
 .L923:
-	.incrom 0x7aa430, 0x7ac2d8
+	.incbin "overlays/rom_7aa430/overlay.lz"
+	.byte	0x46
+	.align	2, 0
 .L924:
-	.incrom 0x7ac2d8, 0x7b0400
+	.incbin "overlays/rom_7ac2d8/overlay.lz"
+	.byte	0x48
+	.align	2, 0
 .L925:
-	.incrom 0x7b0400, 0x7b2078
+	.incbin "overlays/rom_7b0400/overlay.lz"
+	.align	2, 0
 .L926:
-	.incrom 0x7b2078, 0x7b4558
+	.incbin "overlays/rom_7b2078/overlay.lz"
+	.byte	0xe1
+	.align	2, 0
 .L927:
-	.incrom 0x7b4558, 0x7b6668
+	.incbin "overlays/rom_7b4558/overlay.lz"
+	.align	2, 0
 .L928:
-	.incrom 0x7b6668, 0x7b7790
+	.incbin "overlays/rom_7b6668/overlay.lz"
+	.byte	0x88, 0x12
+	.align	2, 0
 .L929:
-	.incrom 0x7b7790, 0x7b7f1c
+	.incbin "overlays/rom_7b7790/overlay.lz"
+	.align	2, 0
 .L930:
-	.incrom 0x7b7f1c, 0x7b8cb0
+	.incbin "overlays/rom_7b7f1c/overlay.lz"
+	.align	2, 0
 .L931:
-	.incrom 0x7b8cb0, 0x7b9cb4
+	.incbin "overlays/rom_7b8cb0/overlay.lz"
+	.byte	0x5c, 0x8f, 0xff
+	.align	2, 0
 .L932:
-	.incrom 0x7b9cb4, 0x7bc690
+	.incbin "overlays/rom_7b9cb4/overlay.lz"
+	.align	2, 0
 .L933:
-	.incrom 0x7bc690, 0x7bdeb0
+	.incbin "overlays/rom_7bc690/overlay.lz"
+	.byte	0xe7, 0x42
+	.align	2, 0
 .L934:
-	.incrom 0x7bdeb0, 0x7bf5a8
+	.incbin "overlays/rom_7bdeb0/overlay.lz"
+	.byte	0x64
+	.align	2, 0
 .L935:
-	.incrom 0x7bf5a8, 0x7c097c
+	.incbin "overlays/rom_7bf5a8/overlay.lz"
+	.align	2, 0
 .L936:
-	.incrom 0x7c097c, 0x7c3044
+	.incbin "overlays/rom_7c097c/overlay.lz"
+	.byte	0x1c, 0x41, 0x81
+	.align	2, 0
 .L937:
-	.incrom 0x7c3044, 0x7c37ac
+	.incbin "overlays/rom_7c3044/overlay.lz"
+	.byte	0x14, 0x01, 0x4e
+	.align	2, 0
 .L938:
-	.incrom 0x7c37ac, 0x7c460c
+	.incbin "overlays/rom_7c37ac/overlay.lz"
+	.byte	0x22
+	.align	2, 0
 .L939:
-	.incrom 0x7c460c, 0x7c5974
+	.incbin "overlays/rom_7c460c/overlay.lz"
+	.byte	0x01, 0x6c
+	.align	2, 0
 .L940:
-	.incrom 0x7c5974, 0x7c5efc
+	.incbin "overlays/rom_7c5974/overlay.lz"
+	.byte	0x7c, 0xa6, 0x05
+	.align	2, 0
 .L941:
-	.incrom 0x7c5efc, 0x7c6bac
+	.incbin "overlays/rom_7c5efc/overlay.lz"
+	.byte	0x9b
+	.align	2, 0
 .L942:
-	.incrom 0x7c6bac, 0x7c7b9c
+	.incbin "overlays/rom_7c6bac/overlay.lz"
+	.byte	0xf8, 0xa5
+	.align	2, 0
 .L943:
-	.incrom 0x7c7b9c, 0x7ca63c
+	.incbin "overlays/rom_7c7b9c/overlay.lz"
+	.align	2, 0
 .L944:
-	.incrom 0x7ca63c, 0x7cb2c0
+	.incbin "overlays/rom_7ca63c/overlay.lz"
+	.byte	0x94, 0x27
+	.align	2, 0
 .L945:
-	.incrom 0x7cb2c0, 0x7ced6c
+	.incbin "overlays/rom_7cb2c0/overlay.lz"
+	.align	2, 0
 .L946:
-	.incrom 0x7ced6c, 0x7d0e88
+	.incbin "overlays/rom_7ced6c/overlay.lz"
+	.byte	0x33, 0xfe, 0x11
+	.align	2, 0
 .L947:
-	.incrom 0x7d0e88, 0x7d30e0
+	.incbin "overlays/rom_7d0e88/overlay.lz"
+	.align	2, 0
 .L948:
-	.incrom 0x7d30e0, 0x7d4af4
+	.incbin "overlays/rom_7d30e0/overlay.lz"
+	.byte	0x21
+	.align	2, 0
 .L949:
-	.incrom 0x7d4af4, 0x7d5838
+	.incbin "overlays/rom_7d4af4/overlay.lz"
+	.byte	0x99, 0x07, 0x7c
+	.align	2, 0
 .L950:
-	.incrom 0x7d5838, 0x7d6418
+	.incbin "overlays/rom_7d5838/overlay.lz"
+	.byte	0x0b
+	.align	2, 0
 .L951:
-	.incrom 0x7d6418, 0x7d768c
+	.incbin "overlays/rom_7d6418/overlay.lz"
+	.byte	0xdf
+	.align	2, 0
 .L952:
-	.incrom 0x7d768c, 0x7d95dc
+	.incbin "overlays/rom_7d768c/overlay.lz"
+	.byte	0xe2
+	.align	2, 0
 .L953:
-	.incrom 0x7d95dc, 0x7db0c8
+	.incbin "overlays/rom_7d95dc/overlay.lz"
+	.byte	0x8d, 0x10, 0x11
+	.align	2, 0
 .L954:
-	.incrom 0x7db0c8, 0x7ddb88
+	.incbin "overlays/rom_7db0c8/overlay.lz"
+	.byte	0x68
+	.align	2, 0
 .L955:
-	.incrom 0x7ddb88, 0x7e0928
+	.incbin "overlays/rom_7ddb88/overlay.lz"
+	.byte	0x06, 0x43
+	.align	2, 0
 .L956:
-	.incrom 0x7e0928, 0x7e3e08
+	.incbin "overlays/rom_7e0928/overlay.lz"
+	.align	2, 0
 .L957:
-	.incrom 0x7e3e08, 0x7e636c
+	.incbin "overlays/rom_7e3e08/overlay.lz"
+	.byte	0x20
+	.align	2, 0
 .L958:
-	.incrom 0x7e636c, 0x7e7574
+	.incbin "overlays/rom_7e636c/overlay.lz"
+	.byte	0x12
+	.align	2, 0
 .L959:
-	.incrom 0x7e7574, 0x7eaf28
+	.incbin "overlays/rom_7e7574/overlay.lz"
+	.byte	0x19
+	.align	2, 0
 .L960:
-	.incrom 0x7eaf28, 0x7ebdfc
+	.incbin "overlays/rom_7eaf28/overlay.lz"
+	.align	2, 0
 .L961:
-	.incrom 0x7ebdfc, 0x7ec19c
+	.incbin "overlays/rom_7ebdfc/overlay.lz"
+	.align	2, 0
 .L962:
-	.incrom 0x7ec19c, 0x7ec968
+	.incbin "overlays/rom_7ec19c/overlay.lz"
+	.align	2, 0
 .L963:
-	.incrom 0x7ec968, 0x7ed0a0
+	.incbin "overlays/rom_7ec968/overlay.lz"
+	.byte	0xee, 0x9d, 0x02
+	.align	2, 0
 .L964:
-	.incrom 0x7ed0a0, 0x7ef4f4
+	.incbin "overlays/rom_7ed0a0/overlay.lz"
+	.align	2, 0
 .L965:
-	.incrom 0x7ef4f4, 0x7f148c
+	.incbin "overlays/rom_7ef4f4/overlay.lz"
+	.align	2, 0
 .L966:
-	.incrom 0x7f148c, 0x7f21b8
+	.incbin "overlays/rom_7f148c/overlay.lz"
+	.align	2, 0
 .L967:
-	.incrom 0x7f21b8, 0x7f2f14
+	.incbin "overlays/rom_7f21b8/overlay.lz"
+	.align	2, 0
 .L968:
-	.incrom 0x7f2f14, 0x7f6e64
+	.incbin "overlays/rom_7f2f14/overlay.lz"
+	.byte	0xe7, 0x0a, 0xa9
+	.align	2, 0
 .L969:
-	.incrom 0x7f6e64, 0x7fa4ec
+	.incbin "overlays/rom_7f6e64/overlay.lz"
+	.byte	0xbc
+	.align	2, 0
 .L970:
-	.incrom 0x7fa4ec, 0x7fb4a8
+	.incbin "overlays/rom_7fa4ec/overlay.lz"
+	.byte	0xb4, 0xcf, 0x87
+	.align	2, 0
 .L971:
-	.incrom 0x7fb4a8, 0x7fc618
+	.incbin "overlays/rom_7fb4a8/overlay.lz"
+	.byte	0x8a
+	.align	2, 0
 .L972:
-	.incrom 0x7fc618, 0x7fc720
+	.incbin "overlays/rom_7fc618/overlay.lz"
+	.byte	0x51
+	.align	2, 0
 .L973:
-	.incrom 0x7fc720, 0x7fcd20
+	.incbin "overlays/rom_7fc720/overlay.lz"
+	.byte	0x01, 0x30, 0x27
+	.align	2, 0
 .L974:
-	.incrom 0x7fcd20, 0x7fd4bc
+	.incbin "overlays/rom_7fcd20/overlay.lz"
+	.byte	0x3b, 0x07, 0xf2
+	.align	2, 0

@@ -299,12 +299,6 @@ static void decode_thumb(void) {
 	}
 }
 
-static void pad_output() {
-	while (output_cursor % 4) {
-		output[output_cursor++] = 0;
-	}
-}
-
 static int write_output(const char *path) {
 	int fd;
 
@@ -358,8 +352,6 @@ int main(int argc, char *argv[]) {
 	}
 
 	decode_thumb();
-
-	pad_output();
 
 	return write_output(output_path);
 }
